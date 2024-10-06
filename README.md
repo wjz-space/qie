@@ -4,7 +4,8 @@ Before executing the `Import()` function, you can change some specific attribute
 To enable/disable debug/error report, you can change `qie._debug` and `qie.suppress_errors`.  
 To skip some specific modules, please make changes to the list `qie._skip_modules`.  
 After everything is ready, you can run the following:  
-```from qie import *  
+```
+from qie import *  
 Import()  
 ```  
 And it will work!  
